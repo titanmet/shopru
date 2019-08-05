@@ -23,7 +23,7 @@ return [
             'identityCookie' => [
                 'name' => '_identity',
                 'httpOnly' => true,
-                'domain' => $params['coolieDomain'],
+                'domain' => $params['cookieDomain'],
                 ],
         ],
         'session' => [

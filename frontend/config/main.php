@@ -19,7 +19,7 @@ return [
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity', 'httpOnly' => true, 'domain' => $params['coolieDomain'],
+            'identityCookie' => ['name' => '_identity', 'httpOnly' => true, 'domain' => $params['cookieDomain'],
                 ],
         ],
         'session' => [
